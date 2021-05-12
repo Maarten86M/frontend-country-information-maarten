@@ -3,8 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
 </head>
 <body>
+<div id="flex-container">
+    <h1>Let's search some country information</h1>
+    <img id="globe-image" src="https://png.pngtree.com/element_our/png/20181228/earth-vector-icon-png_296088.jpg"
+         alt="World Globe Image"/>
+    </br>
+    <label for="text-input"></label>
+    <input name="guest-input" type="text" id="text-input" onfocus="this.value=''">
 
+    <!--<button id="button-one">Zoek knop</button>-->
+    <img id="flag-img">
+    <h2 id="name-header"></h2>
+    <h2 id="name-error"></h2>
+    <p id="text-line-one"></p>
+    <p id="text-line-two"></p>
+    <p id="text-line-three"></p>
+</div>
+<script src="main.js"></script>
 </body>
 </html>
